@@ -34,7 +34,8 @@
         </div>
         <div>
             <div class="field-text">Telephone: </div>
-            <div class="field-content"><input type='number' placeholder='0545367723' /></div> <br>
+            <div class="field-content"><input type='number' id="phone" placeholder='0545367723' /></div> <br>
+            <div id="phone-msg"></div>
         </div>
         <div>
             <div class="field-text">Country: </div>
@@ -283,6 +284,7 @@
                 </select>
             </div> <br>
         </div>
+        <div id="messages"></div>
         <input type="checkbox" name="remember-me" value="Remember">Remember me<br>
         <button type="button" onclick="validateData()">Sign Up</button>
     </form>
